@@ -10,7 +10,7 @@
 
 ## How to use it
 
-1. Clone this repository.
+1. Clone this repository and delete the `.git` directory. Then run `git init` to take ownership.
 
 2. Install the skills:
 
