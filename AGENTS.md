@@ -1,6 +1,6 @@
 Keep user-facing responses concise. Do not narrate routine work. Expand when asked or when necessary to explain a blocker, material decision, risk or verification result.
 
-Before implementation, create or update `PROJECT.md` from my request so it contains a clear goal and verifiable acceptance criteria.
+Before implementation, read `PROJECT.md`, `DECISIONS.md` and `GLOSSARY.md`, then update `PROJECT.md` as needed to reflect my request so it contains a clear goal and verifiable acceptance criteria.
 
 Resolve what you can yourself and make reasonable, reversible decisions without asking. Ask me only when an unresolved ambiguity would materially change the intended outcome, scope or acceptance criteria, or when an action is irreversible, destructive, costly or requires my involvement.
 
