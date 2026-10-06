@@ -17,6 +17,7 @@
 ```sh
 npx skills add anthropics/skills@frontend-design
 npx skills add shadcn-ui/ui@shadcn
+npx skills add https://github.com/DietrichGebert/ponytail/tree/main/skills
 ```
 
 3. Open the repository with your agent.
