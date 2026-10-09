@@ -15,10 +15,13 @@
 2. Install the skills:
 
 ```sh
-npx skills add anthropics/skills@frontend-design
-npx skills add shadcn-ui/ui@shadcn
-npx skills add https://github.com/DietrichGebert/ponytail/tree/main/skills
+npx skills add MengTo/Skills@build-awwwards-quality-sites -y
+npx skills add shadcn-ui/ui@shadcn -y
+npx skills add DietrichGebert/ponytail -y
 ```
+
+> [!NOTE]
+> The ponytail install command will install the skills, but not Ponytail's always-on rules or mode-switching functionality. The native ponytail plugin for your agent harness is usually the better option.
 
 3. Open the repository with your agent.
 
@@ -26,10 +29,14 @@ npx skills add https://github.com/DietrichGebert/ponytail/tree/main/skills
 
 For example:
 
-> Build a website for a residential landscaping company in Sydney.
+> Build a website for my residential landscaping company in Sydney.
 >
 > It should generate qualified enquiries from homeowners looking for premium landscape design and construction.
 >
 > Include home, services, projects, about and contact pages. It should be responsive, accessible and feel premium.
 
-Include specific requirements, constraints or acceptance criteria when they matter. Otherwise, let the agent derive them and record them in `PROJECT.md`.
+Include specific requirements, constraints or acceptance criteria when they matter.
+
+Otherwise, let the agent derive them and record them in `PROJECT.md`.
+
+You can also add information in `PROJECT.md` when starting the project and the agent will treat them as authoritative.
